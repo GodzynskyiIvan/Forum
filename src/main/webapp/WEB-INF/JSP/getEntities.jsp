@@ -19,7 +19,7 @@
 			<tr>
 				<td>${ent.id}</td>
 				<td>${ent.value}</td>
-				<td><a href="/testEntity/edit?id=${ent.id}">EDIT</a></td>
+				<td><a href="edit?id=${ent.id}">EDIT</a></td>
 			</tr>
 		</c:forEach>
 	</table>

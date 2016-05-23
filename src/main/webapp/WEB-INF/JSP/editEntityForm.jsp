@@ -11,7 +11,7 @@
 
 <form action="edit" method="POST">
 		TestEntity value: 
-		<input type = "text" name = "value"/><br>
+		<input type = "text" name = "value" value="${testEntity.value}"/><br>
 		<input type="hidden" name = "id" value="${testEntity.id}"/>
 		
 		<input name="ADD" type="submit"/>
