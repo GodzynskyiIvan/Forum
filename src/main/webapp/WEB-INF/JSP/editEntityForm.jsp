@@ -9,7 +9,7 @@
 </head>
 <body>
 
-<form action="testEntity/edit" method="POST">
+<form action="edit" method="POST">
 		TestEntity value: 
 		<input type = "text" name = "value"/><br>
 		<input type="hidden" name = "id" value="${testEntity.id}"/>

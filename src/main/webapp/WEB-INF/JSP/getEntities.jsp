@@ -24,7 +24,7 @@
 		</c:forEach>
 	</table>
 
-<a href="/testEntity/add">CREATE</a>
+<a href="add">CREATE</a>
 
 </body>
 </html>
